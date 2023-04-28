@@ -1,0 +1,13 @@
+14.def swap_case(s):
+    string=""
+    for i in s:
+        if i.isupper()==True:
+            string+=(i.lower())
+        else:
+            string+=(i.upper())
+    return string  
+
+Input: 
+HackerRank.com presents "Pythonist 2".
+Output:
+hACKERrANK.COM PRESENTS "pYTHONIST 2".         

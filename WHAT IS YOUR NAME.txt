@@ -1,0 +1,10 @@
+16.def print_full_name(first,last):
+    a="Hello "+first+" "+last+"! You just delved into python."
+    print(a)
+    return a
+ 
+Input:
+Ross
+Taylor
+Output:
+Hello Ross Taylor! You just delved into python.
