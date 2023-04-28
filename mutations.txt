@@ -1,0 +1,12 @@
+17.def mutate_string(string, position, character):
+    lst=list(string)
+    lst[position]=character
+    string="".join(lst)
+    return string
+
+Input:
+abracadabra
+5 k
+Output:
+abrackdabra
+
