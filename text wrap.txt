@@ -1,0 +1,14 @@
+20.def wrap(string, max_width):
+    return textwrap.fill(string, max_width) 
+
+Input:
+ABCDEFGHIJKLIMNOQRSTUVWXYZ
+4
+Output:
+ABCD
+EFGH
+IJKL
+IMNO
+QRST
+UVWX
+YZ
